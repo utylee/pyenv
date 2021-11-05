@@ -1,7 +1,3 @@
-**This plugin for Fisherman is no longer maintained as I've switched away to using [asdf](https://github.com/asdf-vm/asdf) 
-instead. If this plugin is useful to you and you'd like to take over maintainership, please let me know.**
-
----
 
 # Pyenv
 
@@ -12,10 +8,12 @@ instead. If this plugin is useful to you and you'd like to take over maintainers
 With [fisherman]
 
 ```
-fisher daenney/pyenv
+fisher install utylee/pyenv
 ```
 
 ## Notes
+
+I've added 'if status is-interactive' code to conf.d/pyenv.fish, so to prevent remote scp echoing.
 
 You need <https://github.com/yyuu/pyenv> to use this plugin.
 
