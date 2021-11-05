@@ -11,10 +11,10 @@ With [fisherman]
 fisher install utylee/pyenv
 ```
 
-## Fixes on connecting with ssh, scp, ssh-copy-id
+## My Fixes on remote connecting with ssh, scp, ssh-copy-id
 I've added `if status is-interactive` code block in conf.d/pyenv.fish, so to prevent remote echo-ing. This will fix maloperation on ssh, ssh-copy-id, scp things from remote.
 
-## Notes
+## Original Notes
 
 You need <https://github.com/yyuu/pyenv> to use this plugin.
 
