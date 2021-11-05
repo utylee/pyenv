@@ -13,7 +13,7 @@ fisher install utylee/pyenv
 
 ## Notes
 
-I've added 'if status is-interactive' code to conf.d/pyenv.fish, so to prevent remote scp echoing.
+I've added `if status is-interactive` code block to conf.d/pyenv.fish, so to prevent remote scp echo-ing. This will fix maloperation on ssh, ssh-copy-id, scp things from remote.
 
 You need <https://github.com/yyuu/pyenv> to use this plugin.
 
